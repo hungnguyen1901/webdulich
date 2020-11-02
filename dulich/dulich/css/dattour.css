@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-main-dattour{
+	height: 400px;
+	background-image: url('anhphu/dattour.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+  height: 120px;
+  width: 120px;
+}
+#logo:hover{
+  transform: scale(1.2,1.2);
+  -webkit-transform: scale(1.2,1.2);
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+}
+.head{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.menu{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.home >i{
+  color: #fff;
+  text-align: center;
+  font-size: 18px; 
+  line-height: 25px;
+  cursor: pointer;
+}
+.home >a{
+  color: #fff;
+  text-align: center;
+  font-size: 18px; 
+  line-height: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Courier New Courier;
+}
+.home >a:hover{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px; 
+}
+.time{
+  margin-top: 10px;
+}
+.time >i{
+  font-size: 20px;
+  color: #4b95e8;
+  cursor: pointer;
+}
+div.stars {
+  width: 110px;
+  display: inline-block;
+  margin-left: 60px;
+  height: 15px;
+
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  padding: 5px;
+  font-size: 12px;
+  color: #000;
+  transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.dat{
+  padding-top: 35px;
+}
+
+
+.bangtin{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  height: 80px;
+  margin-top: 80px;
+}
+#email{
+  padding-left: 20px;
+  height: 40px;
+  width: 775px;
+  border: 0;
+  border-bottom: 1px solid #32aad6 !important;
+}
+.theodoi{
+  font-size: 21px;
+  color: #000;
+  font-weight: bold;
+  font-family: Tahoma Geneva;
+}
+#icon{
+  color: #32aad6;
+  font-size: 21px;
+}
+.hotro{
+  height: 300px;
+}
+.hotro2 >div{
+  cursor: pointer;
+}
+.hotro2 >div:hover{
+  color: #30a9d6;
+}
+.end{
+  background-color: #30a9d6;
+  height: 80px;
+}
+.end2{
+  color: #fff;
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  padding-top: 30px;
+}
+.end3{
+  font-size: 11px;
+}
+.ten{
+  font-size: 12px;
+  font-weight: bold;
+}
+.icon i{
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}

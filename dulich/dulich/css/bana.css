@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-main{
+	height: 550px;
+	background-image: url(anhphu/bana5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+  height: 120px;
+  width: 120px;
+}
+#logo:hover{
+  transform: scale(1.2,1.2);
+  -webkit-transform: scale(1.2,1.2);
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+}
+.head{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.menu{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.home >i{
+  color: #fff;
+  text-align: center;
+  font-size: 18px; 
+  line-height: 25px;
+  cursor: pointer;
+}
+.home >a{
+  color: #fff;
+  text-align: center;
+  font-size: 18px; 
+  line-height: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Courier New Courier;
+}
+.home >a:hover{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px; 
+}
+.tour{
+
+  height: 150px;
+  color: #000;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.danhgia{
+  display: grid;
+  grid-template-columns: 12% 88%;
+}
+
+div.stars {
+  width: 200px;
+  display: inline-block;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+  color: #000;
+  transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+
+.tou{
+  height: 200px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.tou2{
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.time{
+  margin-top: 20px;
+}
+.time >i{
+  font-size: 20px;
+  color: #4b95e8;
+  cursor: pointer;
+}
+.time2 >i:hover {
+  font-size: 16px;
+  cursor: pointer;
+}
+.tou3{
+  background-color: #fff;
+  border: 1px solid #bebebe;
+}
+.tou4{
+  padding-top: 80px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.time2{
+  font-size: 14px;
+}
+.info{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.table1{
+  background-color: #4887bf;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #fff;
+
+}
+.table1>div{
+  padding-top: 10px;
+  border: 1px solid #fff;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+}
+.table2{
+  background-color: #e1e1e1;
+  display: grid;
+  height: 50px;
+  grid-template-columns: 20% 60% 20%;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.table2>div{
+  padding-top: 10px;
+  padding-top: 10px;
+  border: 1px solid #fff;
+  height: 50px;
+}
+.luuy{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.anh{
+  position: relative;
+}
+
+/* Hide the ime-mode: ages by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev{
+  left: 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 16.66%;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.bangtin{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  height: 80px;
+  margin-top: 80px;
+}
+#email{
+  padding-left: 20px;
+  height: 40px;
+  width: 775px;
+  border: 0;
+  border-bottom: 1px solid #32aad6 !important;
+}
+.theodoi{
+  font-size: 21px;
+  color: #000;
+  font-weight: bold;
+  font-family: Tahoma Geneva;
+}
+#icon{
+  color: #32aad6;
+  font-size: 21px;
+}
+.hotro{
+  height: 300px;
+}
+.hotro2 >div{
+  cursor: pointer;
+}
+.hotro2 >div:hover{
+  color: #30a9d6;
+}
+.end{
+  background-color: #30a9d6;
+  height: 80px;
+}
+.end2{
+  color: #fff;
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  padding-top: 30px;
+}
+.end3{
+  font-size: 11px;
+}
+.ten{
+  font-size: 12px;
+  font-weight: bold;
+}
+.icon i{
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.thongtin{
+  height: 230px;
+  border-bottom: 1px solid #bebebe;
+}
+.fontdau>i{
+  font-size: 20px;
+  color: #4b95e8;
+}
+.fontdau>span{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.uudai{
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.uudai>i{
+  font-size: 20px;
+}
+.uudai2{
+  color: #fff;
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.fontgiua{
+  margin-top: 40px;
+}
+.khung{
+  padding-top: 20px;
+  height: 60px; 
+  padding-left: 20px;
+}
+.khung:hover{
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+.khung>i{
+  color: #feac4f;
+}
+.khung>span{
+  margin-left: 10px;
+}
+.bg-khung{
+  margin-top: 50px;
+  height: 300px;
+  background-image: url(anhphu/anhkhung.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.phai{
+  position: sticky;
+  top: 0;
+  height: 650px;
+}
